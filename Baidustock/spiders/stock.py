@@ -35,3 +35,4 @@ class StocksSpider(scrapy.Spider):
             {'股票名称': re.findall('\s.*\(', name)[0].split()[0] + \
                      re.findall('\>.*\<', name)[0][1:-1]})
         yield infoDict
+#dasdasdasda
